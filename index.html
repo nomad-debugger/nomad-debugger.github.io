@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png" />
+	<link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png" />
+</head>
+
+<body>
+	<script type="text/javascript">
+    (function () {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(userAgent)) {
+      // Redirect Android users
+      window.location.href = "android.html";
+    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      // Redirect iOS users
+      window.location.href = "ios.html";
+    } else {
+      // Redirect all other users
+      window.location.href = "https://www.adidas.fr/events/2146653119";
+    }
+  })();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png" />
+	<link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png" />
+</head>
+
+<body>
+	<script type="text/javascript">
+		// 3e8308c71544fc0e9cebe1017e037254
+      // fe9071b962c1a35b11cbf3b25fbc1b3b
+var full_package_name = 'com.adidas.app';
+var full_package_name_len = full_package_name.length;
+var index_of_last_dash = full_package_name.lastIndexOf('-');
+var package_name = index_of_last_dash < 0 ? full_package_name : full_package_name.slice(0,index_of_last_dash);
+var app_link = 'adidas://events/event/2146653119?af_android_url=https://www.adidas.fr/events/2146653119&af_click_lookback=30d&af_deeplink=true&af_dp=adidas://events/event/2146653119&af_force_deeplink=true&af_ios_url=https://www.adidas.fr/events/2146653119&af_lp_src=https://creatives-cdn.appsflyer.com/crt-495bb61a-aeff-4c8d-b336-e64e2726b32c3&af_xp=custom&campaign=EU-AC-FW25-SUPERSTAR-CONCERT-GRP3&deep_link_value=adidas://events/event/2146653119&media_source=Social&shortlink=2628tk94&source_caller=ui';
+var store_link = 'https://www.adidas.fr/events/2146653119?af_xp=custom&af_force_deeplink=true&af_dp=adidas://events/event/2146653119&source_caller=ui&pid=Social&af_click_lookback=30d&shortlink=2628tk94&deep_link_value=adidas://events/event/2146653119&c=EU-AC-FW25-SUPERSTAR-CONCERT-GRP3&referrer=af_tranid=QbBcuxSIscN75G0kwC5E5Q&af_android_url=https://www.adidas.fr/events/2146653119&af_dp=adidas://events/event/2146653119&c=EU-AC-FW25-SUPERSTAR-CONCERT-GRP3&pid=Social&deep_link_value=adidas://events/event/2146653119&af_ios_url=https://www.adidas.fr/events/2146653119';
+var referrer = 'af_tranid=QbBcuxSIscN75G0kwC5E5Q&af_android_url=https://www.adidas.fr/events/2146653119&af_dp=adidas://events/event/2146653119&c=EU-AC-FW25-SUPERSTAR-CONCERT-GRP3&pid=Social&deep_link_value=adidas://events/event/2146653119&af_ios_url=https://www.adidas.fr/events/2146653119';
+var store_link_encoded = encodeURI(store_link);
+var parts = app_link.split('://');
+var scheme = parts.shift();
+var data   = parts.join('://');
+var appsflyer_click_ts = Date.now();
+var intentUrl = 'intent://'   data   '#Intent;scheme='   scheme   ';package='   package_name   ';S.browser_fallback_url='   store_link_encoded   ";S.market_referrer="   referrer   ';l.appsflyer_click_ts='   appsflyer_click_ts   ';end';
+location.href = intentUrl;
+	</script>
+</body>
+
+</html>
